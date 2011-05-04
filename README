@@ -1,1 +1,9 @@
 This is a simple python library that allows users to demonstrate Benford's Law through iterative refinement.
+It was developed to target Python 2.7 and requires that Numpy and Matplotlib be installed.
+
+Usage:
+
+import BenfordsLaw
+BenfordsLaw.BenfordsLawExample()
+
+This will produce a series of scatter plots against a plot of the exact function.
